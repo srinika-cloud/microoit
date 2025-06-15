@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smart Tic Tac Toe</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav>
+    <ul><li>MyTicTacToe.com</li></ul>
+  </nav>
+
+  <div class="difficulty-selector">
+    <label for="difficulty">Difficulty: </label>
+    <select id="difficulty">
+      <option value="easy">Easy</option>
+      <option value="medium">Medium</option>
+      <option value="hard">Hard</option>
+    </select>
+  </div>
+
+  <div class="gameContainer">
+    <div class="container">
+      <div class="box" data-index="0"><span class="boxtext"></span></div>
+      <div class="box" data-index="1"><span class="boxtext"></span></div>
+      <div class="box" data-index="2"><span class="boxtext"></span></div>
+      <div class="box" data-index="3"><span class="boxtext"></span></div>
+      <div class="box" data-index="4"><span class="boxtext"></span></div>
+      <div class="box" data-index="5"><span class="boxtext"></span></div>
+      <div class="box" data-index="6"><span class="boxtext"></span></div>
+      <div class="box" data-index="7"><span class="boxtext"></span></div>
+      <div class="box" data-index="8"><span class="boxtext"></span></div>
+    </div>
+
+    <div class="gameInfo">
+      <h1>Welcome to MyTicTacToe</h1>
+      <span class="info">Turn for X</span>
+      <br><br>
+      <button id="reset">Reset</button>
+      <div class="imgbox">
+        <img src="excited.gif" alt="Celebration" />
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
